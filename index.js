@@ -1,5 +1,5 @@
-import GenezisChecker from "genezis/Checker";
-import deleteOnProduction from "genezis/utils/deleteOnProduction";
+import GenezisChecker from "@genezis/genezis/Checker";
+import deleteOnProduction from "@genezis/genezis/utils/deleteOnProduction";
 
 const ConstructorGenezisCheckerConfig = deleteOnProduction({
     layers: GenezisChecker.array({
