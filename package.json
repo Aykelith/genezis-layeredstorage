@@ -1,6 +1,6 @@
 {
   "name": "@genezis/genezis-layeredstorage",
-  "version": "0.1.1100",
+  "version": "0.1.1101",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Aykelith/genezis-layeredstorage/issues"
   },
-  "homepage": "https://github.com/Aykelith/genezis-layeredstorage#readme"
+  "homepage": "https://github.com/Aykelith/genezis-layeredstorage#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4"
+  }
 }
