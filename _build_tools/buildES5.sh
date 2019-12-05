@@ -5,4 +5,5 @@ npx babel \
 	--delete-dir-on-start \
 	--ignore _build_tools,node_modules \
 	--delete-dir-on-start \
+	--ignore "babel.config.js" \
 	./
